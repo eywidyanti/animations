@@ -22,6 +22,21 @@ Change
 
 ![change](img/change.jpeg)
 
+Animations 3
+
+![anm3](img/curva.jpeg)
+
+anm1
+
+![anm1](img/a1.mp4)
+
+anm2
+
+![anm2](img/a2.mp4)
+
+anm3
+
+![anm3](img/a3.mp4)
 ## Getting Started
 
 This project is a starting point for a Flutter application.

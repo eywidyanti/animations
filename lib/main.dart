@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'animated_containerdemo.dart';
+import 'animated_curve.dart';
 import 'fadein_demo.dart';
 
 void main() {
@@ -77,6 +78,27 @@ class MyHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const AnimatedContainerDemo(),
+                  ),
+                );
+              },
+              shape: RoundedRectangleBorder(
+                side: const BorderSide(
+                    color: Color.fromARGB(255, 139, 143, 140), width: 3),
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
+            ListTile(
+              title: const Text('Animations 3'),
+              subtitle: const Text('Animation curves'),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimatedCurveDemo(),
                   ),
                 );
               },
